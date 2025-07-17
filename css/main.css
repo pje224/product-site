@@ -4,3 +4,36 @@
   padding: 0;
   box-sizing: border-box;
 }
+.prod-list {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  overflow: hidden;
+}
+.prod-list li {
+  position: relative;
+}
+.prod-list img {
+  display: block;
+}
+.caption {
+  /* display: block; */
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 199.99px;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+  transition: all 0.3s;
+}
+h2 {
+  margin-top: 55px;
+}
+/* hover를 어디에 입력해야 하는지 주의! */
+.prod-list li:hover .caption {
+  opacity: 1;
+  transform: translateY(-199.99px);
+}
