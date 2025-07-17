@@ -37,7 +37,7 @@ h1 {
   transition: all 0.3s;
 }
 h2 {
-  margin-top: 55px;
+  margin-top: 60px;
 }
 /* hover를 어디에 입력해야 하는지 주의! */
 .prod-list li:hover .caption {
