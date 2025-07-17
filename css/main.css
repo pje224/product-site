@@ -4,6 +4,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  width: 1000px;
+  margin: 100px auto;
+}
+h1 {
+  margin-bottom: 20px;
+}
 .prod-list {
   display: flex;
   gap: 10px;
